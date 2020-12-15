@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    background: rgb(140, 182, 250);
+    font-family: monospace;
+}
+
+#insert{
+    z-index: 2;
+    position: absolute;
+}
+
+.dis{
+    display: none !important;
+}
+
+.contain{
+    background: rgba(46, 46, 46, .75);
+    width: 1500px;
+    height: 600px;
+    z-index: -1;
+}
+
+#container{
+    margin: auto;
+    margin-top: 10px;
+    background: brown;
+    width: 1300px;
+    height: 590px;
+    display: flex;
+    flex-flow: row nowrap;
+    z-index: 1;
+    position: absolute;
+}
+
+.lib{
+    margin: auto;
+    width: 900px;
+    height: 580px;
+    background: chocolate;
+    border-radius: 20px;
+    border-top: 2px solid rgb(46, 46, 46);
+}
+
+.control{
+    border-top: 2px solid rgb(46, 46, 46);
+    margin: auto;
+    width: 300px;
+    height: 580px;
+    background:chocolate;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(250,255,140);
+}
+
+#btns{
+margin: 20px 0 60px 0;
+}
+
+.btn{
+    width: 100px;
+    height: 20px;
+    list-style: none;
+    border: 1px solid rgb(250,255,140);
+    background: rgb(250,255,140);
+    border-radius: 20px;
+    margin: 20px 0 30px 30%;
+    justify-items: center;
+    border-bottom: 2px solid rgb(124, 124, 124);
+    transition: button .1s ease;
+}
+
+.btn:active{
+    border-top: 2px solid rgb(124, 124, 124);
+}
+
+.x{
+    margin: auto;
+    padding-bottom: 0px;
+    background: rgb(140, 182, 250);
+    width: 80px;
+}
+
+.sparate{
+    border-bottom: 2px solid rgb(68, 68, 68);
+}
+ul{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+li{
+    margin-top: 40px;
+    text-align: left;
+    color: rgb(250,255,140);
+    list-style: none;
+    font-weight: bold;
+    font-size: x-large;
+
+}
+
+span{
+    padding-left: 15px;
+}
+
+#info{
+    margin-top: 30px;
+}
+
+#book_info{
+    padding:10px 10px 5px 10px;
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+.book_in{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    width: 270px;
+    height: 200px;
+    border-radius: 20px;
+    background: rgb(250,255,140);
+    color: crimson;
+    
+}
+
+h2{
+border-bottom: 3px solid rgb(140, 182, 250);
+}
+h4{
+    padding-top: 10px;
+text-align: center;
+}
+
+#btn_book{
+    display: flex;
+    flex-direction: row;
+}
+
+.insert{
+    display: none;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    width: 300px;
+    height: 350px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 20px;
+    background: rgb(250,255,140);
+    color: crimson;
+    font-size: x-large;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.input_atrib{
+padding-top: 20px;
+padding-bottom: 20px;
+font-weight: bolder;
+}
+input{
+    height: 30px;
+    font-size: x-large;
+}
+
+#btn_insert> button{
+    width: 100px;
+    height: 30px;
+    justify-items: center;
+    font-weight: bolder;
+}

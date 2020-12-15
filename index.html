@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Object Tester</title>
+</head>
+
+<body>
+    <div id="insert" class="insert dis">
+        <div id="title" class="input_atrib" autofocus>Title <input id="title_txt" class="data" placeholder="Title"></div>
+        <div id="author" class="input_atrib">Author <input id="author_txt" class="data" placeholder="Author"></div>
+        <div id="pages" class="input_atrib">Pages <input id="pages_txt" class="data" placeholder="Pages"></div>
+        <div id="btn_insert"><button id="save" class="btn x">Save</button><button id="cancel"
+                class="btn x">Cancel</button></div>
+    </div>
+
+    <div id="container">
+        <div class="lib sparate">
+            <h1 class="sparate">Library</h1>
+            <div id="book_info"></div>
+
+        </div>
+
+        <div class="control sparate">
+            <h1>control</h1>
+            <div id="btns">
+                <button value="add_book" id="btn_add" class="btn">Add Book</button>
+                <button value="clear" id="btn_clear" class="btn">Clear Library</button>
+
+            </div>
+            <div class="sparate"></div>
+            <div id="info">
+                <h1>Books Information</h1>
+                <ul>
+                    <li>numbers of books<span id="no_book">0</span></li>
+                    <li>Finish reading<span id="finish">0</span></li>
+                    <li>Total Pages<span id="total">0</span></li>
+                </ul>
+                <br>
+            </div>
+
+        </div>
+    </div>
+    <script src="Jscript.js"></script>
+</body>
+
+</html>
